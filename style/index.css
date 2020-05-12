@@ -1,1 +1,89 @@
 /* Add CSS styling here */
+* {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+h3 {
+    font-size: 20px;
+    padding: 10px 0;
+}
+header {
+    height: 120px;
+    background-color: lightgray;
+}
+.title h1 {
+    font-size: 35px;
+    padding: 15px 0 0 15px;
+}
+.title h2 {
+    font-size: 20px;
+    padding: 0 0 5px 35px;
+}
+nav {
+    font-size: 18px;
+    display: flex;
+    padding-left: 35px;
+}
+nav button {
+    height: 25px;
+    width: 75px;
+    font-size: 14px;
+}
+.description {
+    width: 50%;
+    padding: 5%;
+}
+.description h3 {
+    font-size: 20px;
+    padding: 0;
+}
+.description button {
+    font-size: 16px;
+    width: 125px;
+    height: 30px;
+    margin: 15px 0;
+}
+.description p {
+    font-size: 18px;
+    line-height: 1.3;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.hero_section {
+    display: flex;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.project {
+    margin-top: 30px;
+    text-align: center;
+}
+footer {
+    height: 150px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+footer h4{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 25px 0 10px 0;
+
+}
+footer button {
+    font-size: 20px;
+    width: 175px;
+    height: 60px;
+}
